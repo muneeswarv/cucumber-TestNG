@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42874" started-at="2021-05-09T06:35:49Z" finished-at="2021-05-09T06:36:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3cc2931c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="42874" started-at="2021-05-09T06:35:49Z" finished-at="2021-05-09T06:36:32Z">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@3cc2931c]" name="setUpClass" is-config="true" duration-ms="1782" started-at="2021-05-09T12:05:49Z" finished-at="2021-05-09T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3cc2931c]" name="runScenario" duration-ms="40729" started-at="2021-05-09T12:05:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-09T12:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Signup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Send email to the recipents]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@3cc2931c]" name="tearDownClass" is-config="true" duration-ms="326" started-at="2021-05-09T12:06:31Z" finished-at="2021-05-09T12:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

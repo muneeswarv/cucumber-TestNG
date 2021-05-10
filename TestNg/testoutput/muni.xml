@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="40.836">
+<testcase classname="Send email to the recipents" name="Signup" time="40.329">
+<system-out><![CDATA[Given Navigate to the elearn url............................................passed
+When user should click on signup............................................passed
+And user should enter firstname as "muneeswar".................................passed
+And user should enter lastname as "vollati".................................passed
+And user should enter email as "muneeswar12vollati@gmail.com"..................passed
+And user should enter username as "muneeswarv.................................passed
+And user should enter password as "Welcome01"............................passed
+And click on register.......................................................passed
+Then registration should be sucessfull......................................passed
+Given validate the email entered............................................passed
+When user should click on homepage..........................................passed
+And click on compose........................................................passed
+And user should enter reciever email adress as "muneeswarv".....................passed
+And user should enter subject as "Hi testcase done "...................passed
+And user should enter message...............................................passed
+And user should clikc on sendmessage........................................passed
+Then message should be sent sucessfully.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

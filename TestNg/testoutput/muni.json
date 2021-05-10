@@ -1,0 +1,275 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T06:35:51.542Z",
+        "line": 26,
+        "name": "Signup",
+        "description": "",
+        "id": "send-email-to-the-recipents;signup;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9817000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to the elearn url",
+            "match": {
+              "location": "step.step.navigate_to_the_elearn_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3314000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click on signup",
+            "match": {
+              "location": "step.step.user_should_click_on_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter firstname as \"muneeswar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"muneeswar\"",
+                  "offset": 31
+                }
+              ],
+              "location": "step.step.user_should_enter_firstname_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should enter lastname as \"vollati\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vollati\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step.step.user_should_enter_lastname_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 385000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should enter email as \"muneeswar12vollati@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"muneeswar12vollati@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step.step.user_should_enter_email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should enter username as \"muneeswarv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"muneeswarv\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step.step.user_should_enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 788000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter password as \"Welcome01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome01\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step.step.user_should_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2648000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on register",
+            "match": {
+              "location": "step.step.click_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "registration should be sucessfull",
+            "match": {
+              "location": "step.step.registration_should_be_sucessfull()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "validate the email entered",
+            "match": {
+              "location": "step.step.validate_the_email_entered()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2776000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should click on homepage",
+            "match": {
+              "location": "step.step.user_should_click_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3016000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on compose",
+            "match": {
+              "location": "step.step.click_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9522000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should enter reciever email adress as \"muneeswarv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"muneeswarv\"",
+                  "offset": 43
+                }
+              ],
+              "location": "step.step.user_should_enter_reciever_email_adress_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should enter subject as \"Hi testcase done\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi testing done\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step.step.user_should_enter_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 656000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should enter message",
+            "match": {
+              "location": "step.step.user_should_enter_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2777000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should clikc on sendmessage",
+            "match": {
+              "location": "step.step.user_should_click_on_sendmessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "message should be sent sucessfully",
+            "match": {
+              "location": "step.step.user_should_be_sent_sucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          }
+        ]
+      }
+    ],
+    "name": "Send email to the recipents",
+    "description": "",
+    "id": "send-email-to-the-recipents",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Elearning/elearning.feature",
+    "tags": []
+  }
+]
